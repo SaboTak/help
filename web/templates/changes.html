@@ -1,0 +1,15 @@
+{%  extends 'layout.html' %}
+
+{% block head%}
+
+  {%from '_macro.html' import render_field%}
+<h1 class="loginhead">CAMBIO DE CONTRASEÑA</h1>
+  <form class="formC" name="changePass" id="changeForm" method="post">
+    {{render_field(form.password, class='form-control')}}
+    {{render_field(form.new_password, class='form-control')}}
+    {{render_field(form.confirm_password, class='form-control')}}
+    {{form.submit}}
+    {{form.honypot}}
+  </form>
+
+{%endblock%}

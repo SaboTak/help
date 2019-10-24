@@ -1,0 +1,31 @@
+{%  extends 'layout.html' %}
+
+{% block head%}
+
+<h1 class="loginhead">INFORMACION DE LA CUENTA</h1>
+
+<div class="info">
+  <table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr class="center">
+      <th scope="col f1">Cedula</th>
+      <th scope="col f2">Asociados</th>
+      <th scope="col f3">Aportes</th>
+      <th scope="col f4">Prestamos</th>
+      <th scope="col f5">Suministros</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="center">
+      <th scope="row">{{ cedula }}</th>
+      <td>{{ asociado }}</td>
+      <td>{{ aporte }}</td>
+      <td>{{ prestamo }}</td>
+      <td>{{ suministro }}</td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+<p class="gg">*Este informacion de corte es de caracter informativo y consta de "X" del año 2019.*</p>
+{%endblock%}

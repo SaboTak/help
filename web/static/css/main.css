@@ -1,5 +1,442 @@
-/* custom styles */
+*{
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+  font-family: cursive;
 
-.container {
-  max-width: 500px;
+  padding-right: 0%;
+}
+p{
+  font: small-caps 100%/200% ;
+  font-size: 20px;
+  text-align: justify;
+}
+.content{
+  margin-bottom: 5%;
+
+}
+
+.linee{
+  background-color: white;
+}
+.line{
+  color: red;
+  position: relative;
+  box-shadow:
+              200px 0 red inset,
+              400px 0 orange inset,
+              600px 0 yellow inset,
+              800px 0 green inset,
+              1000px 0 blue inset,
+              1200px 0 indigo inset,
+              1400px 0 violet inset;
+}
+/* navbar*/
+
+.iconn{
+  height: 22px;
+  width: 22px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#sebas{
+  position: fixed;
+  padding-left: 80%;
+  height: 180px;
+  width: 100%;
+}
+a:hover{
+  color: black;
+}
+.navbar {
+    border-radius: 0;
+    background-color: #0d693a;
+}
+.nav-link{
+  color: white;
+}
+.inicio{
+  color: white;
+}
+.somos{
+  color: white;
+}
+.servicios{
+  color: white;
+}
+.documentos{
+  color: white;
+}
+.unete{
+  color: white;
+}
+.user{
+  color: white;
+}
+/* configuracion */
+.center{
+  text-align: center;
+}
+.info{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+li{
+  display: inline-flex;
+}
+a.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    text-align: justify;
+}
+.loginhead{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+/* Formularios */
+.formC{
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url("blob:https://web.whatsapp.com/2343bb25-5561-461e-8be2-d08427eb86fe");
+}
+
+/* things */
+.row{
+  width: 100%;
+}
+.head{
+
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+.content{
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+.hed{
+  background-color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 410px;
+  width: 100%;
+}
+.error{
+  color: red;
+}
+.ef{
+  width: 100%;
+  padding-right: 10%;
+  height: 150px;
+  color: black;
+  background-color: snow;
+  /*box-shadow: 0px -140px white inset,
+              200px 0 red inset,
+              400px 0 orange inset,
+              600px 0 yellow inset,
+              800px 0 green inset,
+              1000px 0 blue inset,
+              1200px 0 indigo inset,
+              1400px 0 violet inset; */
+  font-style: italic;
+
+}
+#bnt{
+  height: 150px;
+  width: 200px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.pbn{
+  padding-top: 80px;
+  padding-left: 50px;
+  font-size: 35px;
+  padding-right: 50px;
+
+}
+
+/* NOTICOOUNILIBRE */
+/* Cuenta */
+.gg{
+  padding-left: 20%;
+  margin-top: 10%;
+  color: red;
+  font-size: 20px;
+}
+.info{
+  background-color: white;
+}
+/* index */
+.indexinfo{
+  background-color: white;
+}
+.objetivo{
+  padding-left: 200px;
+  padding-right: 100px;
+  margin-top: 3%;
+  text-align: center;
+}
+.vision{
+  padding-left: 100px;
+  padding-right: 200px;
+  margin-top: 3%;
+  text-align: center;
+}
+.objetivo>h1{
+  margin-top: 10px;
+  background-color: orange;
+  border-radius: 10px;
+}
+.objetivo>img{
+  height: 200px;
+}
+.vision>h1{
+  background-color: violet;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.vision>img{
+  height: 200px;
+}
+/* Footer */
+.footer-copyright{
+  color: white;
+  width: 100%;
+  background-color: #0d693a;
+  position: relative;
+  position: absolute;
+  padding-bottom: 0%;
+}
+/*  nosotros  */
+
+.we{
+  background-color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+.we>h1{
+  padding-top: 2%;
+  color: black;
+}
+.we>p{
+  padding-top: 2%;
+  padding-bottom: : 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.we>img{
+  height: 200px;
+}
+.we>.opd{
+    height: 150px;
+}
+.we>iframe{
+  padding-left: 20%;
+  padding-right: 20%;
+  width: 100%;
+}
+.cen{
+  padding-top: 1%;
+  text-align: center;
+}
+/* servicios */
+
+.service{
+  background-color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+.service>h1{
+  padding-top: 2%;
+  color: black;
+}
+.service>p{
+  padding-top: 2%;
+  padding-bottom: : 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.service>img{
+  height: 290px;
+}
+
+.service>.row{
+  margin-top: 5%;
+}
+/* SERVICIOS PAGE*/
+.servicioo{
+  background-color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+.servicioo>h1{
+  padding-top: 2%;
+  color: black;
+}
+.crds{
+  font: small-caps 100%/200% serif;
+  font-size: 20px;
+  text-align: center;
+}
+.crds>a{
+
+  color: #0d693a;
+}
+.servicioo>p{
+  padding-top: 2%;
+  padding-bottom: : 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.list-group{
+  margin-bottom: 5%;
+}
+ul.list-group{
+  align-items: center;
+}
+p.untp{
+  text-align: center;
+  padding-top: 5%;
+}
+.especial{
+  height: 300px;
+  width: 100%;
+}
+
+ /* Unete*/
+.uneete{
+  background-color: white;
+  padding-top: 5px;
+  text-align: center;
+}
+.uneete>h1{
+  padding-top: 2%;
+  color: black;
+}
+.uneete>h2{
+  padding-top: 2%;
+}
+.uneete>p{
+  margin-bottom: 2%;
+}
+.untp{
+
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.unimg{
+  height: 150px;
+}
+.uneet{
+  height: 200px;
+}
+.uneett{
+  height: 200px;
+}
+.unt{
+  height: 150px;
+}
+p.untp{
+  padding-top: 2%;
+  text-align: justify;
+}
+ /* cards */
+.credito{
+  align-items: center;
+}
+ .card-text{
+   text-align: center;
+   font-size: 14px;
+ }
+ .card{
+   margin-bottom: 10%;
+   height: auto;
+   width: 600px;
+   margin-left: 18%;
+   margin-right: 10%;
+ }
+
+.div.wor.credito>h1{
+  padding-top: 0%;
+}
+p.unt{
+  margin-top: 20px;
+}
+/* Acount */
+.table .thead-dark .f1{
+  color: red;
+}
+.table{
+  border-left: 100px;
+  border-right: 50px;
+  padding-right: 500px;
+}
+.servicioo>h1{
+  margin-bottom: 50px;
+}
+table{
+  margin-left: 30px;
+  margin-right: 30px;
+  border-collapse: collapse;
+}
+th{
+  margin-left: 100px;
+  border: 1px solid black;
+}
+td{
+  border-left: 100px;
+  margin-left: 100px;
+  border: 1px solid black;
+}
+/* NEWS */
+div.content{
+  background-color: white;
+}
+.hope{
+  margin-top: 5%;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 300px;
+}
+.hope>iframe{
+  background-color: white;
+  height: 300px;
+  padding-left: 100px;
+}
+.carousel-inner{
+  height: 410px;
+  background-color: white;
+}
+.hpee{
+  margin-top: 7%;
+}
+
+.card{
+  font-size: 10px;
+  margin-left: 110px;
+  font: small-caps 100%/200% serif;
+}
+.card>img{
+  height: 150px;
+}
+.card.gut{
+  margin-left: 0px;
+}
+.creditt{
+  padding-bottom: 40px;
+}
+td{
+  text-align: justify;
 }

@@ -8,4 +8,5 @@ Featuring:
 
 **Check out the awesome blog post here > https://realpython.com/blog/python/dockerizing-flask-with-compose-and-machine-from-localhost-to-the-cloud/**
 
-Cheers!
+Pagina estatica, el unico sector dinamico es cuando se concta a la base de datos para que cuando haga el login busque la informacion de la cuenta de ese usuario.
+Tengo problemas al desplegar en docker ya que al installar los requirements me pide un psy2 binary pero esta instalado y ni con eso paso.
