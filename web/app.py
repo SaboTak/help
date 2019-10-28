@@ -13,21 +13,14 @@ from wtforms import validators
 from flask import url_for,json, g
 from flask_wtf.csrf import CSRFProtect
 from flask import flash
-from models import db
-from models import users, asociados
-from config import DevelopmentConfig
-
-
-
 import forms
 import flask
 import sys
+from config import BaseConfig
 
 
-app = Flask(__name__)
-app.config.from_object('config.DevelopmentConfig')
-
-
+app = Flask(__name__, static_folder=os.path.abspath('static'))
+app.config.from_object(BaseConfig)
 
 
 
@@ -233,9 +226,5 @@ def acount():
 #    username = request.form['username']
 #    response = {'status':200 , 'username': username, 'id': 1}
 #    return json.dumps(response)
-app.run(port=8000, debug =True)
 if __name__  ==  '__main__':
-
-    app.init_app()
-    db.create_all()
-    app.run(port=8000)
+    app.run(debug=os.getenv('DEBUG'))
