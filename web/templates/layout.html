@@ -2,7 +2,7 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"  href="https://res.cloudinary.com/sabos/raw/upload/v1572414413/counilibre/bootstrap.min_ti59ed.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -26,8 +26,8 @@
 
     <div class="ef">
       <div class="row">
-        <img  id="sebas" class="static-top" src="{{url_for('static', filename = 'imgs/banner.png')}}" alt="" style="">
-        <img  class="static-top" src="{{url_for('static', filename = 'imgs/logo.jpeg')}}" alt="" id="bnt">
+        <img  id="sebas" class="static-top" src="https://res.cloudinary.com/sabos/image/upload/v1572331883/counilibre/imgs/banner_qavxaq.png" alt="" >
+        <img  class="static-top" src="https://res.cloudinary.com/sabos/image/upload/v1572331894/counilibre/imgs/logo_uzuny8.jpg" alt="" id="bnt">
         <h1 class="pbn static-top">"UNIDOS POR LA BÚSQUEDA DEL BIENESTAR"</h1>
       </div>
 
@@ -38,23 +38,23 @@
         <div class="collapse navbar-collapse justify-content-md-center">
           <ul class="navbar-nav">
             {% if  'username' in session %}
-              <li class="nav-item"><a class="nav-link inicio" href="{{url_for('index')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/icon.png')}}" alt="">Inicio</a></li>
-              <li class="nv-item"><a class="nav-link somos" href="{{url_for('nosotros')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/somos.png')}}" alt="">Quiénes Somos</a></li>
-              <li class="nv-item"><a class="nav-link somos" href="{{url_for('news')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/news.png')}}" alt="">NotiCooUnilibre</a></li>
-              <li class="nv-item"><a class="nav-link servicios" href="{{url_for('servicios')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/servicios.png')}}" alt="">Nuestros Servicios</a></li>
-              <li class="nv-item"><a class="nav-link unete" href="{{url_for('unete')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/unete.png')}}" alt="">Únete</a></li>
+              <li class="nav-item"><a class="nav-link inicio" href="{{url_for('index')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331884/counilibre/imgs/icon_rwmfd1.png" alt="">Inicio</a></li>
+              <li class="nv-item"><a class="nav-link somos" href="{{url_for('nosotros')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331907/counilibre/imgs/somos_sj7iml.png" alt="">Quiénes Somos</a></li>
+              <li class="nv-item"><a class="nav-link somos" href="{{url_for('news')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331900/counilibre/imgs/news_wfrfc0.png" alt="">NotiCooUnilibre</a></li>
+              <li class="nv-item"><a class="nav-link servicios" href="{{url_for('servicios')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331907/counilibre/imgs/servicios_jrheiq.png" alt="">Nuestros Servicios</a></li>
+              <li class="nv-item"><a class="nav-link unete" href="{{url_for('unete')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331908/counilibre/imgs/unete_ei4xsb.png" alt="">Únete</a></li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle user" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img  class="iconn" src="{{url_for('static', filename = 'imgs/documento.png')}}" alt="">Documentos</a>
+                <a class="nav-link dropdown-toggle user" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331883/counilibre/imgs/documento_kfxmgj.png" alt="">Documentos</a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="{{url_for('static', filename = 'documentos/CUERPODIRECTIVO.pdf')}}" target="_blank">Cuerpo Directivo</a>
-                  <a class="dropdown-item" href="{{url_for('static', filename = 'documentos/Estatutos.pdf')}}" target="_blank">Estatutos</a>
-                  <a class="dropdown-item" href="{{url_for('static', filename = 'documentos/REGLAMENTOBSOCIAL.pdf')}}" target="_blank">Reglamento Bienestar Social</a>
-                  <a class="dropdown-item" href="{{url_for('static', filename = 'documentos/REGLAMENTOCREDITOS.pdf')}}" target="_blank">Reglamento de Credito</a>
-                  <a class="dropdown-item" href="{{url_for('static', filename = 'documentos/REGLAMENTOCONSEJOADM.pdf')}}" target="_blank">Reglamento de Concejo Adm</a>
+                  <a class="dropdown-item" href="https://res.cloudinary.com/sabos/image/upload/v1572329980/counilibre/documentos/CUERPODIRECTIVO_ebq1qb.pdf" target="_blank">Cuerpo Directivo</a>
+                  <a class="dropdown-item" href="https://res.cloudinary.com/sabos/image/upload/v1572331613/counilibre/documentos/Estatuto_bdqzdv.pdf" target="_blank">Estatutos</a>
+                  <a class="dropdown-item" href="https://res.cloudinary.com/sabos/image/upload/v1572329980/counilibre/documentos/REGLAMENTOBSOCIAL_zmsvcm.pdf" target="_blank">Reglamento Bienestar Social</a>
+                  <a class="dropdown-item" href="https://res.cloudinary.com/sabos/image/upload/v1572329981/counilibre/documentos/REGLAMENTOCREDITOS_tzshoz.pdf" target="_blank">Reglamento de Credito</a>
+                  <a class="dropdown-item" href="https://res.cloudinary.com/sabos/image/upload/v1572329981/counilibre/documentos/REGLAMENTOCONSEJOADM_vhnb5i.pdf" target="_blank">Reglamento de Concejo Adm</a>
 
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle user" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img  class="iconn" src="{{url_for('static', filename = 'imgs/user.png')}}" alt="">{{user}}</a>
+                <a class="nav-link dropdown-toggle user" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331908/counilibre/imgs/user_cidoqm.png" alt="">{{user}}</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="{{url_for('acount')}}">Mi Cuenta</a>
                   <a class="dropdown-item" href="{{url_for('change')}}">Cambio de Contraseña</a>
@@ -63,22 +63,22 @@
                 </div>
               </li>
             {% else %}
-              <li class="nav-item"><a class="nav-link inicio" href="{{url_for('index')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/icon.png')}}" alt="">Inicio</a></li>
-              <li class="nv-item"><a class="nav-link somos" href="{{url_for('nosotros')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/somos.png')}}" alt="">Quiénes Somos</a></li>
-              <li class="nv-item"><a class="nav-link somos" href="{{url_for('news')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/news.png')}}" alt="">NotiCooUnilibre</a></li>
-              <li class="nv-item"><a class="nav-link servicios" href="{{url_for('servicios')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/servicios.png')}}" alt="">Nuestros Servicios</a></li>
-              <li class="nv-item"><a class="nav-link unete" href="{{url_for('unete')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/unete.png')}}" alt="">Únete</a></li>
+              <li class="nav-item"><a class="nav-link inicio" href="{{url_for('index')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331884/counilibre/imgs/icon_rwmfd1.png" alt="">Inicio</a></li>
+              <li class="nv-item"><a class="nav-link somos" href="{{url_for('nosotros')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331907/counilibre/imgs/somos_sj7iml.png" alt="">Quiénes Somos</a></li>
+              <li class="nv-item"><a class="nav-link somos" href="{{url_for('news')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331900/counilibre/imgs/news_wfrfc0.png" alt="">NotiCooUnilibre</a></li>
+              <li class="nv-item"><a class="nav-link servicios" href="{{url_for('servicios')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331907/counilibre/imgs/servicios_jrheiq.png" alt="">Nuestros Servicios</a></li>
+              <li class="nv-item"><a class="nav-link unete" href="{{url_for('unete')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331908/counilibre/imgs/unete_ei4xsb.png" alt="">Únete</a></li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle user" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img  class="iconn" src="{{url_for('static', filename = 'imgs/documento.png')}}" alt="">Documentos</a>
+                <a class="nav-link dropdown-toggle user" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331883/counilibre/imgs/documento_kfxmgj.png" alt="">Documentos</a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="{{url_for('static', filename = 'documentos/CUERPODIRECTIVO.pdf')}}" target="_blank">Cuerpo Directivo</a>
-                  <a class="dropdown-item" href="{{url_for('static', filename = 'documentos/Estatutos.pdf')}}" target="_blank">Estatutos</a>
-                  <a class="dropdown-item" href="{{url_for('static', filename = 'documentos/REGLAMENTOBSOCIAL.pdf')}}" target="_blank">Reglamento Bienestar Social</a>
-                  <a class="dropdown-item" href="{{url_for('static', filename = 'documentos/REGLAMENTOCREDITOS.pdf')}}" target="_blank">Reglamento de Credito</a>
-                  <a class="dropdown-item" href="{{url_for('static', filename = 'documentos/REGLAMENTOCONSEJOADM.pdf')}}" target="_blank">Reglamento de Concejo Adm</a>
+                  <a class="dropdown-item" href="https://res.cloudinary.com/sabos/image/upload/v1572329980/counilibre/documentos/CUERPODIRECTIVO_ebq1qb.pdf" target="_blank">Cuerpo Directivo</a>
+                  <a class="dropdown-item" href="https://res.cloudinary.com/sabos/image/upload/v1572331613/counilibre/documentos/Estatuto_bdqzdv.pdf" target="_blank">Estatutos</a>
+                  <a class="dropdown-item" href="https://res.cloudinary.com/sabos/image/upload/v1572329980/counilibre/documentos/REGLAMENTOBSOCIAL_zmsvcm.pdf" target="_blank">Reglamento Bienestar Social</a>
+                  <a class="dropdown-item" href="https://res.cloudinary.com/sabos/image/upload/v1572329981/counilibre/documentos/REGLAMENTOCREDITOS_tzshoz.pdf" target="_blank">Reglamento de Credito</a>
+                  <a class="dropdown-item" href="https://res.cloudinary.com/sabos/image/upload/v1572329981/counilibre/documentos/REGLAMENTOCONSEJOADM_vhnb5i.pdf" target="_blank">Reglamento de Concejo Adm</a>
 
               </li>
-              <li class="nav-item"><a class="nav-link user" href="{{url_for('login')}}"><img  class="iconn" src="{{url_for('static', filename = 'imgs/user.png')}}" alt="">{{user}}</a></li>
+              <li class="nav-item"><a class="nav-link user" href="{{url_for('login')}}"><img  class="iconn" src="https://res.cloudinary.com/sabos/image/upload/v1572331908/counilibre/imgs/user_cidoqm.png" alt="">{{user}}</a></li>
             {% endif %}
           </ul>
         </div>
@@ -94,7 +94,7 @@
     <footer class="page-footer font-small footer">
           <!-- Copyright -->
       <div class="footer-copyright text-center py-3 ">© 2019 Copyright:
-       <a href="https://coolibre.com"> Coolibre.com</a>
+       <a href="https://coounilibre.com"> Coounilibre.com</a>
       </div>
       <!-- Copyright -->
     </footer>
