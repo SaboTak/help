@@ -475,7 +475,10 @@ td{
                 800px 0 green inset,
                 1000px 0 blue inset,
                 1200px 0 indigo inset,
-                1400px 0 violet inset;
+                1400px 0 violet inset,
+                1600px 0 red inset,
+                1800px 0 orange inset,
+                2000px 0 yellow inset;
   }
   /* navbar*/
   
@@ -540,7 +543,7 @@ td{
   }
   .loginhead{
     text-align: center;
-    padding-top: 50px;
+    margin-top: 10%;
     padding-bottom: 30px;
     background-color: white;
   }
@@ -549,8 +552,8 @@ td{
       margin: 0 auto;
       text-align: center;
       width: 500px;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 3%;
+      padding-bottom: 3%;
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100% 100%;
@@ -565,7 +568,7 @@ td{
   
     position: relative;
     width: 100%;
-    height: 60%;
+    height: 80%;
   }
   .content{
     position: relative;
@@ -574,8 +577,8 @@ td{
   }
   .hed{
     background-color: white;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 30%;
+    padding-right: 25%;
     height: 410px;
     width: 100%;
   }
@@ -606,22 +609,24 @@ td{
     padding-top: 10px;
   }
   .pbn{
-    padding-top: 80px;
-    padding-left: 50px;
+    padding-top: 4.8%;
+    padding-left: 15%;
     font-size: 35px;
     padding-right: 50px;
   
   }
   
   /* NOTICOOUNILIBRE */
+
   /* Cuenta */
   .gg{
-    padding-left: 20%;
-    margin-top: 10%;
+    padding-left: 30%;
+    margin-top: 5%;
     color: red;
     font-size: 20px;
   }
   .info{
+    margin-top: 5%;
     background-color: white;
   }
   /* index */
@@ -658,12 +663,18 @@ td{
   }
   /* Footer */
   .footer-copyright{
-    color: white;
+    color: white; 
     width: 100%;
     background-color: #0d693a;
+    margin-top: 2.2%;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
     position: relative;
     position: absolute;
-    padding-bottom: 0%;
+    padding-bottom: 0%; 
+
+    
   }
   /*  nosotros  */
   
@@ -715,9 +726,12 @@ td{
     padding-right: 20%;
   }
   .service>img{
+    padding-left: 5%;
     height: 290px;
   }
-  
+  .credito .col-6{
+    padding-left: 5%;
+  }
   .service>.row{
     margin-top: 5%;
   }
@@ -871,7 +885,7 @@ td{
   
   .card{
     font-size: 10px;
-    margin-left: 110px;
+    margin-left: 25%;
     font: small-caps 100%/200% serif;
   }
   .card>img{
@@ -887,6 +901,9 @@ td{
     text-align: justify;
   }
   
+  }
+  .card .effef{
+    margin-left: 25%;
   }
 @media screen and (max-width:1920px)and (min-width:1680px){
   *{
@@ -1054,7 +1071,7 @@ td{
     padding-top: 10px;
   }
   .pbn{
-    padding-top: 5%;
+    padding-top: 4.8%;
     padding-left: 15%;
     font-size: 35px;
     padding-right: 50px;
