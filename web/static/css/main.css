@@ -988,7 +988,7 @@ td{
   }
   .loginhead{
     text-align: center;
-    padding-top: 50px;
+    margin-top: 10%;
     padding-bottom: 30px;
     background-color: white;
   }
@@ -997,8 +997,8 @@ td{
       margin: 0 auto;
       text-align: center;
       width: 500px;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 3%;
+      padding-bottom: 3%;
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100% 100%;
@@ -1106,12 +1106,20 @@ td{
   }
   /* Footer */
   .footer-copyright{
-    color: white;
+    /*color: white;
     width: 100%;
     background-color: #0d693a;
+    margin-top: 5%;
     position: relative;
     position: absolute;
-    padding-bottom: 0%;
+    padding-bottom: 0%; */
+    position:fixed;
+    left:0px;
+    color: white;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#0d693a;
   }
   /*  nosotros  */
   
