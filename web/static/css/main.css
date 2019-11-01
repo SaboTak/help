@@ -1113,13 +1113,13 @@ td{
     position: relative;
     position: absolute;
     padding-bottom: 0%; */
-    position:fixed;
-    left:0px;
+    background-color: #0d693a;
     color: white;
-    bottom:0px;
-    height:30px;
-    width:100%;
-    background:#0d693a;
+    text-align: center;
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
+    
   }
   /*  nosotros  */
   
