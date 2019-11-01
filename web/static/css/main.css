@@ -1,3 +1,4 @@
+@media screen and (max-width:1366px){
 *{
   padding: 0%;
   border: 0%;
@@ -232,7 +233,7 @@ p {
 }
 .we>p{
   padding-top: 2%;
-  padding-bottom: : 5%;
+  padding-bottom: 5%;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -264,7 +265,7 @@ p {
 }
 .service>p{
   padding-top: 2%;
-  padding-bottom: : 5%;
+  padding-bottom: 5%;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -296,7 +297,7 @@ p {
 }
 .servicioo>p{
   padding-top: 2%;
-  padding-bottom: : 5%;
+  padding-bottom: 5%;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -315,7 +316,7 @@ p.untp{
   width: 100%;
 }
 
- /* Unete*/
+  /* Unete*/
 .uneete{
   background-color: white;
   padding-top: 5px;
@@ -352,21 +353,21 @@ p.untp{
   padding-top: 2%;
   text-align: justify;
 }
- /* cards */
+  /* cards */
 .credito{
   align-items: center;
 }
- .card-text{
-   text-align: center;
-   font-size: 14px;
- }
- .card{
-   margin-bottom: 10%;
-   height: auto;
-   width: 600px;
-   margin-left: 18%;
-   margin-right: 10%;
- }
+  .card-text{
+    text-align: center;
+    font-size: 14px;
+  }
+  .card{
+    margin-bottom: 10%;
+    height: auto;
+    width: 600px;
+    margin-left: 18%;
+    margin-right: 10%;
+  }
 
 .div.wor.credito>h1{
   padding-top: 0%;
@@ -439,4 +440,6 @@ div.content{
 }
 td{
   text-align: justify;
+}
+
 }
