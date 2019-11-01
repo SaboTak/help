@@ -914,13 +914,16 @@ td{
     color: red;
     position: relative;
     box-shadow:
-                20% 0 red inset,
-                40% 0 orange inset,
-                60% 0 yellow inset,
-                80% 0 green inset,
-                100% 0 blue inset,
-                120% 0 indigo inset,
-                140% 0 violet inset;
+                200px 0 red inset,
+                400px 0 orange inset,
+                600px 0 yellow inset,
+                800px 0 green inset,
+                1000px 0 blue inset,
+                1200px 0 indigo inset,
+                1400px 0 violet inset,
+                1600px 0 red inset,
+                1800px 0 orange inset,
+                2000px 0 yellow inset;
   }
   /* navbar*/
   
