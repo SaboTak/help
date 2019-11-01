@@ -1054,15 +1054,15 @@ td{
     padding-top: 10px;
   }
   .pbn{
-    padding-top: 80px;
-    padding-left: 50px;
+    padding-top: 5%;
+    padding-left: 15%;
     font-size: 35px;
     padding-right: 50px;
   
   }
   
   /* NOTICOOUNILIBRE */
-  
+
   /* Cuenta */
   .gg{
     padding-left: 30%;
@@ -1171,6 +1171,7 @@ td{
     padding-right: 20%;
   }
   .service>img{
+    padding-left: 5%;
     height: 290px;
   }
   
