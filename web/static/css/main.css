@@ -1177,9 +1177,6 @@ td{
   .credito .col-6{
     padding-left: 5%;
   }
-  .card .effef{
-    margin-left: 25%;
-  }
   .service>.row{
     margin-top: 5%;
   }
@@ -1333,7 +1330,7 @@ td{
   
   .card{
     font-size: 10px;
-    margin-left: 110px;
+    margin-left: 25%;
     font: small-caps 100%/200% serif;
   }
   .card>img{
@@ -1349,4 +1346,7 @@ td{
     text-align: justify;
   }
   
+  }
+  .card .effef{
+    margin-left: 25%;
   }
