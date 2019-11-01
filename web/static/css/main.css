@@ -1062,14 +1062,16 @@ td{
   }
   
   /* NOTICOOUNILIBRE */
+  
   /* Cuenta */
   .gg{
-    padding-left: 20%;
-    margin-top: 10%;
+    padding-left: 30%;
+    margin-top: 5%;
     color: red;
     font-size: 20px;
   }
   .info{
+    margin-top: 5%;
     background-color: white;
   }
   /* index */
