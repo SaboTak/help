@@ -1,4 +1,4 @@
-@media screen and (max-width:1366px){
+@media screen and (max-width:1440px){
 *{
   padding: 0%;
   border: 0%;
@@ -443,7 +443,7 @@ td{
 }
 
 }
-@media screen and (max-width:1920px)and (min-width:641px){
+@media screen and (max-width:1920px)and (min-width:1440px){
   *{
     padding: 0%;
     border: 0%;
