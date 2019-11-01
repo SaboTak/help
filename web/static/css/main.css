@@ -1106,19 +1106,15 @@ td{
   }
   /* Footer */
   .footer-copyright{
-    /*color: white;
+    color: white;
+    bottom: 0%;
     width: 100%;
     background-color: #0d693a;
     margin-top: 5%;
     position: relative;
     position: absolute;
-    padding-bottom: 0%; */
-    background-color: #0d693a;
-    color: white;
-    text-align: center;
-    bottom: 0%;
-    width: 100%;
-    position: fixed;
+    padding-bottom: 0%; 
+
     
   }
   /*  nosotros  */
