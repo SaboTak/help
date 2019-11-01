@@ -1175,7 +1175,10 @@ td{
     height: 290px;
   }
   .credito .col-6{
-    padding-left: 4%;
+    padding-left: 5%;
+  }
+  .card .effef{
+    margin-left: 25%;
   }
   .service>.row{
     margin-top: 5%;
