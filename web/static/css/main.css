@@ -1,6 +1,5 @@
 @media screen and (max-width:1440px){
 *{
-  background-color: white;
   padding: 0%;
   border: 0%;
   margin: 0%;
@@ -101,7 +100,6 @@ p {
 }
 /* Formularios */
 .formC{
-    background-color: white;
     margin: 0 auto;
     text-align: center;
     width: 500px;
@@ -118,7 +116,7 @@ p {
   width: 100%;
 }
 .head{
-  background-color: white;
+
   position: relative;
   width: 100%;
   height: 60%;
@@ -446,7 +444,6 @@ td{
 }
 @media screen and (max-width:1680px)and (min-width:1440px){
   *{
-    background-color: white;
     padding: 0%;
     border: 0%;
     margin: 0%;
@@ -909,7 +906,6 @@ td{
   }
 @media screen and (max-width:1920px)and (min-width:1680px){
   *{
-    background-color: white;
     padding: 0%;
     border: 0%;
     margin: 0%;
