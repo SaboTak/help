@@ -542,7 +542,7 @@ td{
   }
   .loginhead{
     text-align: center;
-    margin-top: 10%;
+    padding-top: 10%;
     padding-bottom: 30px;
     background-color: white;
   }
@@ -553,6 +553,7 @@ td{
       width: 500px;
       padding-top: 3%;
       padding-bottom: 3%;
+      background-color: white;
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100% 100%;
@@ -1004,7 +1005,7 @@ td{
   }
   .loginhead{
     text-align: center;
-    margin-top: 10%;
+    padding-top: 10%;
     padding-bottom: 30px;
     background-color: white;
   }
