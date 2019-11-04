@@ -1,7 +1,7 @@
 server {
 
-    listen 3005;
-    server_name localhost;
+    listen 80;
+    server_name coounilibre.com;
     charset utf-8;
 
     location /static/ {
