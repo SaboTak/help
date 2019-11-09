@@ -440,7 +440,9 @@ div.content{
 td{
   text-align: justify;
 }
-
+.special{
+  color: black;
+}
 }
 @media screen and (max-width:1680px)and (min-width:1440px){
   *{
@@ -448,7 +450,7 @@ td{
     border: 0%;
     margin: 0%;
     font-family: cursive;
-  
+
     padding-right: 0%;
   }
   p{
@@ -458,9 +460,9 @@ td{
   }
   .content{
     margin-bottom: 5%;
-  
+
   }
-  
+
   .linee{
     background-color: white;
   }
@@ -480,14 +482,14 @@ td{
                 2000px 0 yellow inset;
   }
   /* navbar*/
-  
+
   .iconn{
     height: 22px;
     width: 22px;
     margin-right: 5px;
     margin-left: 5px;
   }
-  
+
   #sebas{
     position: fixed;
     padding-left: 80%;
@@ -536,7 +538,7 @@ td{
   a.navbar-brand {
       font-family: 'Pacifico', cursive;
   }
-  
+
   p {
       text-align: justify;
   }
@@ -559,7 +561,7 @@ td{
       background-size: 100% 100%;
       background-image: url("blob:https://web.whatsapp.com/2343bb25-5561-461e-8be2-d08427eb86fe");
   }
-  
+
   /* things */
   .row{
     width: 100%;
@@ -600,7 +602,7 @@ td{
                 1200px 0 indigo inset,
                 1400px 0 violet inset; */
     font-style: italic;
-  
+
   }
   #bnt{
     height: 150px;
@@ -613,9 +615,9 @@ td{
     padding-left: 15%;
     font-size: 35px;
     padding-right: 50px;
-  
+
   }
-  
+
   /* NOTICOOUNILIBRE */
 
   /* Cuenta */
@@ -663,7 +665,7 @@ td{
   }
   /* Footer */
   .footer-copyright{
-    color: white; 
+    color: white;
     width: 100%;
     background-color: #0d693a;
     margin-top: 2.2%;
@@ -672,12 +674,12 @@ td{
     box-sizing:border-box;
     position: relative;
     position: absolute;
-    padding-bottom: 0%; 
+    padding-bottom: 0%;
 
-    
+
   }
   /*  nosotros  */
-  
+
   .we{
     background-color: white;
     padding-top: 20px;
@@ -709,7 +711,7 @@ td{
     text-align: center;
   }
   /* servicios */
-  
+
   .service{
     background-color: white;
     padding-top: 20px;
@@ -751,7 +753,7 @@ td{
     text-align: center;
   }
   .crds>a{
-  
+
     color: #0d693a;
   }
   .servicioo>p{
@@ -774,7 +776,7 @@ td{
     height: 300px;
     width: 100%;
   }
-  
+
     /* Unete*/
   .uneete{
     background-color: white;
@@ -792,7 +794,7 @@ td{
     margin-bottom: 2%;
   }
   .untp{
-  
+
     margin-left: 20%;
     margin-right: 20%;
   }
@@ -827,7 +829,7 @@ td{
       margin-left: 18%;
       margin-right: 10%;
     }
-  
+
   .div.wor.credito>h1{
     padding-top: 0%;
   }
@@ -882,7 +884,7 @@ td{
   .hpee{
     margin-top: 7%;
   }
-  
+
   .card{
     font-size: 10px;
     margin-left: 25%;
@@ -900,10 +902,13 @@ td{
   td{
     text-align: justify;
   }
-  
+
   }
   .card .effef{
     margin-left: 25%;
+  }
+  .special{
+    color: black;
   }
 @media screen and (max-width:1920px)and (min-width:1680px){
   *{
@@ -911,7 +916,7 @@ td{
     border: 0%;
     margin: 0%;
     font-family: cursive;
-  
+
     padding-right: 0%;
   }
   p{
@@ -921,9 +926,9 @@ td{
   }
   .content{
     margin-bottom: 5%;
-  
+
   }
-  
+
   .linee{
     background-color: white;
   }
@@ -943,14 +948,14 @@ td{
                 2000px 0 yellow inset;
   }
   /* navbar*/
-  
+
   .iconn{
     height: 22px;
     width: 22px;
     margin-right: 5px;
     margin-left: 5px;
   }
-  
+
   #sebas{
     position: fixed;
     padding-left: 80%;
@@ -999,7 +1004,7 @@ td{
   a.navbar-brand {
       font-family: 'Pacifico', cursive;
   }
-  
+
   p {
       text-align: justify;
   }
@@ -1021,7 +1026,7 @@ td{
       background-size: 100% 100%;
       background-image: url("blob:https://web.whatsapp.com/2343bb25-5561-461e-8be2-d08427eb86fe");
   }
-  
+
   /* things */
   .row{
     width: 100%;
@@ -1062,7 +1067,7 @@ td{
                 1200px 0 indigo inset,
                 1400px 0 violet inset; */
     font-style: italic;
-  
+
   }
   #bnt{
     height: 150px;
@@ -1075,9 +1080,9 @@ td{
     padding-left: 15%;
     font-size: 35px;
     padding-right: 50px;
-  
+
   }
-  
+
   /* NOTICOOUNILIBRE */
 
   /* Cuenta */
@@ -1125,7 +1130,7 @@ td{
   }
   /* Footer */
   .footer-copyright{
-    color: white; 
+    color: white;
     width: 100%;
     background-color: #0d693a;
     margin-top: 2.2%;
@@ -1134,12 +1139,12 @@ td{
     box-sizing:border-box;
     position: relative;
     position: absolute;
-    padding-bottom: 0%; 
+    padding-bottom: 0%;
 
-    
+
   }
   /*  nosotros  */
-  
+
   .we{
     background-color: white;
     padding-top: 20px;
@@ -1171,7 +1176,7 @@ td{
     text-align: center;
   }
   /* servicios */
-  
+
   .service{
     background-color: white;
     padding-top: 20px;
@@ -1213,7 +1218,7 @@ td{
     text-align: center;
   }
   .crds>a{
-  
+
     color: #0d693a;
   }
   .servicioo>p{
@@ -1236,7 +1241,7 @@ td{
     height: 300px;
     width: 100%;
   }
-  
+
     /* Unete*/
   .uneete{
     background-color: white;
@@ -1254,7 +1259,7 @@ td{
     margin-bottom: 2%;
   }
   .untp{
-  
+
     margin-left: 20%;
     margin-right: 20%;
   }
@@ -1289,7 +1294,7 @@ td{
       margin-left: 18%;
       margin-right: 10%;
     }
-  
+
   .div.wor.credito>h1{
     padding-top: 0%;
   }
@@ -1344,7 +1349,7 @@ td{
   .hpee{
     margin-top: 7%;
   }
-  
+
   .card{
     font-size: 10px;
     margin-left: 25%;
@@ -1362,8 +1367,11 @@ td{
   td{
     text-align: justify;
   }
-  
+
   }
   .card .effef{
     margin-left: 25%;
+  }
+  .special{
+    color: black;
   }
