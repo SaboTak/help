@@ -440,7 +440,7 @@ div.content{
 td{
   text-align: justify;
 }
-.special{
+td.special{
   color: black;
 }
 }
@@ -907,7 +907,7 @@ td{
   .card .effef{
     margin-left: 25%;
   }
-  .special{
+  td.special{
     color: black;
   }
 @media screen and (max-width:1920px)and (min-width:1680px){
@@ -1372,6 +1372,6 @@ td{
   .card .effef{
     margin-left: 25%;
   }
-  .special{
+  td.special{
     color: black;
   }
