@@ -442,6 +442,7 @@ td{
 }
 td.special{
   color: black;
+  font-weight: bold;
 }
 }
 @media screen and (max-width:1680px)and (min-width:1440px){
@@ -909,6 +910,7 @@ td.special{
   }
   td.special{
     color: black;
+    font-weight: bold;
   }
 @media screen and (max-width:1920px)and (min-width:1680px){
   *{
@@ -1368,10 +1370,11 @@ td.special{
     text-align: justify;
   }
 
-  }
   .card .effef{
     margin-left: 25%;
   }
   td.special{
     color: black;
+    font-weight: bold;
   }
+}
