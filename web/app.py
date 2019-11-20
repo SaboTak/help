@@ -210,7 +210,9 @@ def acount():
         aporte = data.aporte
         prestamo = data.prestamo
         suministro = data.suministro
+        db.commit()
         return render_template('acount.html', user=user , cedula = cedula , asociado = asociado, aporte = aporte, prestamo = prestamo, suministro = suministro)
+
     else:
         return redirect(url_for('login'))
 
