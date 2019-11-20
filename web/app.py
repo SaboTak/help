@@ -202,7 +202,7 @@ def change():
 @app.route('/acount', methods= ['GET','POST'])
 def acount():
     user = 'Login'
-    if 'username' in session:
+    if 'username' in session and request.method == 'GET' :
         username = session["username"]
         data = db.execute("SELECT * FROM asociados WHERE cedula= :username",{"username": username})
         cedula = data.cedula
