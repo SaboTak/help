@@ -205,7 +205,7 @@ def acount():
     if 'username' in session:
         print("Estoy en sesion")
         username = session["username"]
-        data = db.execute("SELECT * FROM asociados WHERE cedula= :username",{"username": username}).fetchone()
+        data = db.execute("SELECT * FROM asociados WHERE cedula= :username",{"username": username})
         cedula = data.cedula
         asociado = data.asociado
         aporte = data.aporte
