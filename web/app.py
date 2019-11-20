@@ -203,7 +203,6 @@ def change():
 def acount():
     user = 'Login'
     if 'username' in session:
-        print("Estoy en sesion")
         username = session["username"]
         data = db.execute("SELECT * FROM asociados WHERE cedula= :username",{"username": username})
         cedula = data.cedula
@@ -211,7 +210,6 @@ def acount():
         aporte = data.aporte
         prestamo = data.prestamo
         suministro = data.suministro
-        user = session["nick"]
         return render_template('acount.html', user=user , cedula = cedula , asociado = asociado, aporte = aporte, prestamo = prestamo, suministro = suministro)
     else:
         return redirect(url_for('login'))
