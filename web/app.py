@@ -202,19 +202,20 @@ def change():
 @app.route('/acount', methods= ['GET','POST'])
 def acount():
     user = 'Login'
-    if 'username' in session and request.method == 'GET' :
+    if 'username' in session:
         username = session["username"]
-        data = db.execute("SELECT * FROM asociados WHERE cedula= :username",{"username": username})
+        data = db.execute("SELECT * FROM asociados WHERE cedula= :username",{"username": username}).fetchone()
         cedula = data.cedula
         asociado = data.asociado
         aporte = data.aporte
         prestamo = data.prestamo
         suministro = data.suministro
-        db.commit()
+        user = session["nick"]
+
         return render_template('acount.html', user=user , cedula = cedula , asociado = asociado, aporte = aporte, prestamo = prestamo, suministro = suministro)
 
     else:
-        return redirect(url_for('login'))
+        return redirect(url_for('index'))
 
 
 
