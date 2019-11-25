@@ -59,7 +59,9 @@ def index():
     user = 'Login'
     #print (g.test) #cerrar = g.test.close
     if 'username' in session:
-        user = session["nick"]
+        username = session['username']
+        data = db.execute("SELECT * FROM users WHERE cedula = :a", {"a":username}).fetchone()
+        user = data.nombre
     return render_template('index.html',user=user)
 
 
@@ -138,6 +140,8 @@ def login():
             if data != None:
                 if data.cedula == username and data.password == password:
                     person = db.execute("SELECT cedula FROM asociados WHERE cedula = :e", {"e":username}).fetchone()
+                    clave = username
+                    session["clave"] = clave
                     user = data.nombre
                     session["nick"] = user
                     session["username"] = username
@@ -206,9 +210,7 @@ def acount():
         aporte = data.aporte
         prestamo = data.prestamo
         suministro = data.suministro
-        db.commit()
         user = session["nick"]
-
         return render_template('acount.html', user=user , cedula = cedula , asociado = asociado, aporte = aporte, prestamo = prestamo, suministro = suministro)
 
     else:
